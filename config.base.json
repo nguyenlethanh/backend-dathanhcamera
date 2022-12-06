@@ -1,0 +1,25 @@
+{
+    "debug": true,
+    "server":{
+        "port": 6001
+    },
+    "db":{
+        "host"                  : "localhost",
+        "user"                  : "root",
+        "password"              : "",
+        "database"              : "",
+        "multipleStatements"    : false,
+        "charset"               : "utf8mb4"
+    },
+    "cors":{
+        "http://localhost:8080": true,
+        "http://0.0.0.0:8080": true,
+        "http://localhost:6000": true
+    },
+    "login":{
+        "google":{
+            "clientId": "846416560168-5gcjqefbm11s2v5b232doptq4imcrril.apps.googleusercontent.com",
+            "clientSecret": "jOQ31NPQdj19NaZ6hSJA_rJU"
+        }
+    }   
+}
